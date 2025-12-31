@@ -30,7 +30,6 @@ import 'prismjs/themes/prism-okaidia.css'
 
 import parseResponseError from '@/utils/parseResponseError'
 import API from '@/api/api'
-import { n as navigateTo, R as ROUTES_CONFIG } from '~/.output/server/chunks/build/server.mjs'
 
 const route = useRoute()
 const config = useRuntimeConfig()

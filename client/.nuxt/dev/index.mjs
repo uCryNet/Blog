@@ -656,7 +656,7 @@ const _inlineRuntimeConfig = {
   "public": {
     "vueAppApi": "http://localhost:5000/api/",
     "vueAppApiHost": "http://localhost:5000/",
-    "vueAppTinymceKey": "2by8mtybmxl5k80mkmf28mbcgz3rnz24b6nw9xqbavp8am76"
+    "vueAppTinymceKey": "2by8***am76"
   }
 };
 const envOptions = {

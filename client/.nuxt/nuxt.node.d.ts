@@ -1,5 +1,5 @@
-/// <reference types="@nuxt/eslint" />
 /// <reference types="@pinia/nuxt" />
+/// <reference types="@nuxt/eslint" />
 /// <reference types="@nuxt/devtools" />
 /// <reference types="@nuxt/telemetry" />
 /// <reference path="types/modules.d.ts" />
