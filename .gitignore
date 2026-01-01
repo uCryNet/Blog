@@ -1,6 +1,6 @@
 # Project exclude paths
 /server/node_modules/
 /client/node_modules/
-/.idea
-/server/.env/
-/client/.env/
+/.idea/
+/server/.env.example/
+/client/.env.example/
