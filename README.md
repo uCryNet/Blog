@@ -13,7 +13,7 @@
 
 ## :dart: About ##
 
-This is my personal blog you can download it and see how it works. Download [master](https://github.com/uCryNet/blog/archive/refs/heads/master.zip) branch and install. It is assumed that you already have Node and NPM installed. Admin panel http://localhost:8080/#/login (admin:admin).
+This is my personal blog you can download it and see how it works. Download [master](https://github.com/uCryNet/blog/archive/refs/heads/master.zip) branch and install. It is assumed that you already have Node and NPM installed. Admin panel http://localhost:3000/login (admin:admin).
 ## :checkered_flag: How to start
 **Back-end:**
 * `cd server`
