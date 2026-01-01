@@ -53,4 +53,4 @@ This is my personal blog you can download it and see how it works. Download [mas
 :x: Add "2FA for admin login [BE/FE] \
 :heavy_check_mark: Add paginator [BE/FE] \
 :x: Update isAdmin solution [FE] \
-:heavy_check_mark: Add SSR [FE] \
+:heavy_check_mark: Add SSR [FE]
