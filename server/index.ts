@@ -30,7 +30,6 @@ app.use(express.json())
 app.use(express.static(STATIC_FOLDER_NAME))
 app.use(fileUpload({}))
 app.use(router) // http://localhost:5000/api/
-mongoose.set('useCreateIndex', true)
 
 const options = {
   key: fs.readFileSync('privkey.pem'),
@@ -39,11 +38,7 @@ const options = {
 
 async function startApp() {
   try {
-    await mongoose.connect(process.env.DB as string, {
-      useFindAndModify: false,
-      useNewUrlParser: true,
-      useUnifiedTopology: true
-    })
+    await mongoose.connect(process.env.DB)
     https.createServer(options, app).listen(process.env.PORT);
   } catch (e) {
     console.log(e)
