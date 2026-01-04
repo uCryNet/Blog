@@ -1,11 +1,15 @@
 {
   "compilerOptions": {
-    "esModuleInterop": true, // Allows us to compile ES6 modules to CommonJS modules
+    "esModuleInterop": true,
     "module": "commonjs",
     "target": "ES6",
-    "strict": true, // An option that enables strict type-checking options
+    "strict": true,
+    "outDir": "./dist",
+    "rootDir": "./",
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node"
   },
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["./**/*.ts"],
+  "exclude": ["node_modules", "dist"]
 }
